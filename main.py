@@ -1,18 +1,39 @@
+from colorama import init, Fore, Back
+from requests.exceptions import ConnectionError
+try:
+	import os,sys,time,requests
 import os,time,sys,shutil
 
 class Main:
 
 	def __init__(self):
 		self.detekos()
+B = Fore.BLUE
+W = Fore.WHITE
+R = Fore.RED
+G = Fore.GREEN
+BL = Fore.BLACK
+
+IP = requests.get('https://api.ipify.org').text
+localtime = time.asctime(time.localtime(time.time()))
 
 	def menu(self):
+		os.system("clear")
+	print("\033[1;0m\033[1;41mFollow Akun IG Gua Om...\033[1;0m")
+	time.sleep(10)
+	os.system("xdg-open https://bit.ly/KenzoxploitIG")
+	os.system("clear")
 		print("""
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 		;       S P A M  S M S      ;
 		;---------------------------;
-		;       Author : noobie     ;
+		;    \033[1;0m\033[1;41mAuthor : KenzoXploit\033[1;0m   ;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
+	print(""+Fore.RED+"   [+] Time Local:\033[1;92m"+localtime)
+	print(""+Fore.RED+"   [+] Instagram:\033[1;92mbit.ly/KenzoxploitIG")
+	print(""+Fore.RED+"   [+] IP Kamu:\033[1;92m"+IP)
+	print(""+Fore.RED+"   [+] Pengguna:\033[1;92m1032 Orang")
+	print("")
 NOTE: This tool's only work for Indonesia number phone.
 
 1. SMS Gratis
