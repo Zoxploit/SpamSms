@@ -2,11 +2,7 @@ from colorama import init, Fore, Back
 from requests.exceptions import ConnectionError
 try:
 	import os,sys,time,requests
-
-class Main:
-
-	def __init__(self):
-		self.detekos()
+	
 B = Fore.BLUE
 W = Fore.WHITE
 R = Fore.RED
@@ -15,6 +11,11 @@ BL = Fore.BLACK
 
 IP = requests.get('https://api.ipify.org').text
 localtime = time.asctime(time.localtime(time.time()))
+
+class Main:
+
+	def __init__(self):
+		self.detekos()
 
 	def menu(self):
 		os.system("clear")
