@@ -28,11 +28,7 @@ localtime = time.asctime(time.localtime(time.time()))
 		;---------------------------;
 		;    \033[1;0m\033[1;41mAuthor : KenzoXploit\033[1;0m   ;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	print(""+Fore.RED+"   [+] Time Local:\033[1;92m"+localtime)
-	print(""+Fore.RED+"   [+] Instagram:\033[1;92mbit.ly/KenzoxploitIG")
-	print(""+Fore.RED+"   [+] IP Kamu:\033[1;92m"+IP)
-	print(""+Fore.RED+"   [+] Pengguna:\033[1;92m1032 Orang")
-	print("")
+	
 NOTE: This tool's only work for Indonesia number phone.
 
 1. SMS Gratis
@@ -41,6 +37,12 @@ NOTE: This tool's only work for Indonesia number phone.
 4. OTP Olx.co.id
 5. OTP Sociolla.com
 """)
+	print(""+Fore.RED+"   [+] Time Local:\033[1;92m"+localtime)
+	print(""+Fore.RED+"   [+] Instagram:\033[1;92mbit.ly/KenzoxploitIG")
+	print(""+Fore.RED+"   [+] IP Kamu:\033[1;92m"+IP)
+	print(""+Fore.RED+"   [+] Pengguna:\033[1;92m1032 Orang")
+	print("")
+		
 		pilih=int(input('noobie/> '))
 		if pilih == 1:
 			import src.payu
