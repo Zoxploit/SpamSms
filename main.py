@@ -2,7 +2,6 @@ from colorama import init, Fore, Back
 from requests.exceptions import ConnectionError
 try:
 	import os,sys,time,requests
-import os,time,sys,shutil
 
 class Main:
 
